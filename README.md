@@ -6,9 +6,17 @@ A flask web application for AthleticUsLeague, which is a platform designed to pr
 
 ## Installation
 Steps to install and set up your project.
+git clone https://github.com/liana-26/Projectfinal.git
+cd Projectfinal
 
 ## Usage
 Examples of how to use your project.
+To run Project:
+type,
+export FLASK_APP=app.py
+and then,
+flask run
+into the terminal
 
 ## Contributing
 Guidelines for contributing to your project.
