@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <title>Page 3</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('free-resp').onsubmit = function(event) {
+                event.preventDefault();
+                alert("Website under development");
+            };
+        });
+        </script>
+    </head>
+    <body>
+        <script>
+            function on() {
+              document.getElementById("overlay").style.display = "block";
+            }
+
+            function off() {
+              document.getElementById("overlay").style.display = "none";
+            }
+        </script>
+        <div id="overlay" onclick="off()">
+            <div id="text">
+            <nav class="nav-links">
+                <a href="/">Home Page</a>
+                <a href="/page_2">About Us</a>
+                <a href="/page_3">Events & Leagues</a>
+                <a href="/page_4">Girls in Sports Initiative</a>
+                <a href="/page_5">Training & Tutorials</a>
+                <a href="/page_6">Resources</a>
+                <a href="/page_7">Community Forum</a>
+                <a href="/page_8">Volunteer & Coaches Corner</a>
+                <a href="/page_9">Achievements & Leaderboards</a>
+                <a href="/page_10">Contact Us</a>
+            </nav>
+            </div>
+            </div>
+        <div class="menu-button" onclick="on()">☰</div>
+
+        <h1><strong>Athletic</strong><u><span class="papyrus">Us</span></u>Hub</h1>
+        <h6>Events & Leagues</h6>
+        <p style="text-align: center;">---page 3---</p>
+        <hr>
+
+        <h2>Upcoming Events</h2>
+        <p><strong><u>Kindly Note:</u> Participants under 18 require parental consent.</strong></p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Description</th>
+                <th>Eligibility</th>
+            </tr>
+            <tr>
+                <td>Pacific Splash Sprint</td>
+                <td>February 10, 2024</td>
+                <td>Pacific Shores Park</td>
+                <td>A fast-paced, coastal-themed sprint race designed for runners of all levels.</td>
+                <td>Open to ages 12 and above. </td>
+            </tr>
+            <tr>
+                <td>Mountain Trek Challenge</td>
+                <td>March 15, 2024</td>
+                <td>Evergreen Hills Trail</td>
+                <td>A thrilling endurance challenge across rugged mountain trails with breathtaking views.</td>
+                <td>Open to ages 15 and above. Prior experience with long-distance trekking is required</td>
+            </tr>
+            <tr>
+                <td>Frozen Tundra Trek</td>
+                <td>January 20, 2024</td>
+                <td>Snowcap Valley Reserve</td>
+                <td>A winter trek through snowy landscapes, combining adventure and endurance.</td>
+                <td>Open to ages 16 and above. Intermediate level.</td>
+            </tr>
+            <tr>
+                <td>Canyon Climb Quest</td>
+                <td>April 5, 2024</td>
+                <td>Redrock Canyon Trails</td>
+                <td>Test your limits with this uphill climb through scenic canyon terrain.</td>
+                <td>Open to ages 14 and above.</td>
+            </tr>
+            <tr>
+                <td>Rugged Trail Obstacle Course</td>
+                <td>May 12, 2024</td>
+                <td>Forest Ridge Adventure Park</td>
+                <td>A challenging obstacle course featuring rope climbs, mud pits, and more!</td>
+                <td>Open to ages 13 and above. Team registrations are allowed (max 4 members per team).</td>
+            </tr>
+            <tr>
+                <td>Crystal Lake Kayak Race</td>
+                <td>June 8, 2024</td>
+                <td>Crystal Lake Waterfront</td>
+                <td>Paddle to victory in this exciting kayak race across Crystal Lake’s serene waters.</td>
+                <td>Open to ages 10 and above. Participants under 16 must be accompanied by an adult guardian.</td>
+            </tr>
+        </table>
+        <p>To join any of the above mentioned events, kindly visit the Contact Us page and visit us at the mentioned addresses. If for more information, kindly fill in the following form. An email will be sent to you via our company email.</p>
+        <form id="free-resp">
+            <label for="text-input"><p>Full Name:</p></label>
+            <textarea id="text-input" name="name" rows="1" cols="100"></textarea><br>
+            <label for="text-input"><p>Email:</p></label>
+            <textarea id="text-input" name="name" rows="1" cols="100"></textarea><br>
+            <label for="text-input"><p>Course No.:</p></label>
+            <textarea id="text-input" name="name" rows="1" cols="100"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+
+        <h2>Past Events</h2>
+        <ol>
+            <li>Mia Torres- 1st in 100-meter and 200-meter race, Golden Sprint Championships</li>
+            <li>Zoe Kumas- 1st in National Gymnastics Open, this year</li>
+            <li>Lila Chen- 1st in the River Valley Cycle Challenge</li>
+            <li>Ava Lopez- 1st and  "Most Inspiring Performance" in Adriatic Dive Invitational</li>
+            <li>Ethan Rivera - 1st in the Extreme Mountain Climbing Competition, Summit Peak Challenge</li>
+            <li>Jasmine Lee - 1st in the National Chess Championship, Strategic Minds Tournament</li>
+            <li>Noah Patel - 1st in the Cybersecurity Hackathon, Digital Defense League</li>
+            <li>Ruby Kim - 1st in the International Art Festival, Creative Expressions Showcase</li>
+            <li>Leo Johnson - 1st in the Youth Robotics Championship, Future Innovators Contest</li>
+            <li>Chloe Martinez - 1st and "Best Dancer" in the National Dance Off, Rhythm & Flow Festival</li>
+            <li>Oliver White - 1st in the High School Science Fair, Innovative Thinkers Expo</li>
+            <li>Ava Chen - 1st in the International Poetry Contest, Voices of Tomorrow Competition</li>
+        </ol>
+
+        <footer>
+            <div class="centered">Page 3</div>
+            <div class="menu-button" onclick="on()">☰</div>
+        </footer>
+    </body>
+</html>
