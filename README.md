@@ -18,8 +18,6 @@ and then,
 flask run
 into the terminal
 
-## Contributing
-Guidelines for contributing to your project.
-
 ## License
-Information about the project's license.
+For information about the project's license, refer to 
+https://cs50.harvard.edu/x/2021/license/
